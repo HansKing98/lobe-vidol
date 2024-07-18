@@ -10,6 +10,24 @@ export const OPENAI_END_POINT = 'x-openai-endpoint';
 export const OPENAI_MODEL_LIST: ChatModelCard[] = [
   // GPT 3.5: https://platform.openai.com/docs/models/gpt-3-5
   {
+    description: 'Currently points to yi-large',
+    displayName: 'yi-large',
+    enabled: true,
+    functionCall: true,
+    id: 'yi-large',
+    tokens: 32_768,
+    // vision: true,
+  },
+  {
+    description: 'Currently points to yi-vision',
+    displayName: 'yi-vision',
+    enabled: true,
+    functionCall: true,
+    id: 'yi-vision',
+    tokens: 32_768,
+    // vision: true,
+  },
+  {
     description: 'GPT 3.5 Turbo，适用于各种文本生成和理解任务',
     displayName: 'GPT-3.5 Turbo',
     enabled: true,
